@@ -1,0 +1,72 @@
+/* Alinhar nome ao centro e definir cor */
+#nome {
+    text-align: center;
+    color: darkblue;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* Alinhar imagem ao centro */
+#foto {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+/* Ajustar imagem */
+.img-people-screen {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    border: 3px solid darkblue;
+}
+
+/* Estilizar títulos com fundo cinza e hover */
+h2 {
+    background-color: gray;
+    padding: 10px;
+    transition: background-color 1.5s, color 1.5s;
+    text-align: center;
+    border-radius: 5px;
+}
+
+h2:hover {
+    background-color: darkgray;
+    color: white;
+}
+
+/* Fonte Verdana para parágrafos */
+p {
+    font-family: Verdana, sans-serif;
+    text-align: center;
+    margin: 5px 0;
+}
+
+/* Modificar listas para letras maiúsculas */
+ol {
+    list-style-type: upper-alpha;
+    padding-left: 20px;
+}
+
+/* Estilo para e-mail, rede social e idade */
+.email, .rede-social, .idade {
+    background-color: lightblue;
+    padding: 5px 10px;
+    display: inline-block;
+    border-radius: 5px;
+    font-weight: bold;
+    margin: 5px;
+}
+
+/* Estilizar divs de Formações acadêmicas, Formações complementares e Soft Skills */
+.minhadiv {
+    border: 2px dashed black;
+    background-color: gray;
+    text-align: center;
+    padding: 15px;
+    margin: 15px auto;
+    width: 80%;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+}
