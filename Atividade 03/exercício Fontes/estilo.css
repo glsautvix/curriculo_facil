@@ -1,0 +1,86 @@
+/* Estilos gerais do corpo da página */
+body {
+    background-color: #f8f9fa;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Container principal */
+.container {
+    background-color: #ffffff;
+    width: 960px;
+    margin: auto;
+}
+
+/*
+A propriedade width define a largura fixa do container (960px neste caso).
+A propriedade margin: auto centraliza horizontalmente o container na página,
+calculando automaticamente as margens laterais iguais.
+*/
+
+/* Estilos agrupados para header e footer */
+header, footer {
+    background-color: #343a40;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Estilo para o título principal com fonte do Google */
+header h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5em;
+    margin: 0;
+}
+
+/* Estilo para a navegação */
+nav {
+    background-color: #495057;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    margin: 0 15px;
+}
+
+/* Estilos básicos para links */
+a {
+    text-decoration: none;
+    color: #3498db;
+}
+
+/*
+A propriedade text-decoration controla efeitos de decoração no texto como:
+- underline (sublinhado)
+- overline (linha acima)
+- line-through (riscado)
+- none (remove decoração)
+Neste caso, usamos 'none' para remover o sublinhado padrão dos links.
+*/
+
+/* Efeito hover para links */
+a:hover {
+    color: #e63946;
+}
+
+/* Estilo para a seção principal */
+section {
+    padding: 20px;
+    line-height: 1.6;
+}
+
+/* Estilo para a imagem principal */
+#main-image {
+    width: 960px;
+    height: auto;
+    margin-bottom: 20px;
+}
